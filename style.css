@@ -2,26 +2,6 @@ body{
     margin: 0px;
 }
 
-#Cabecalho{
-    background-color: yellowgreen;
-    color: green;
-    padding: 8px;
-}
-
-#Lista_Cabecalho{
-    display: flex;
-    flex-direction: row;
-    column-gap: 64px;
-    justify-content: center;
-    list-style: none;
-
-}
-
-#Div_Cabecalho{
-    background-color: rgb(70, 140, 0);
-    padding: 12px;
-}
-
 .Rodape{
     background-color: yellowgreen;
     color: rgb(6, 85, 6);
@@ -33,18 +13,6 @@ body{
     flex-direction: column;
     row-gap: 10px;
     flex-wrap: wrap;
-}
-
-button{
-    background-color: rgb(77, 156, 17);
-}
-
-button :active{
-    background-color: rgb(40, 60, 20);
-}
-
-button :hover{
-    background: teal;
 }
 
 #Título{
