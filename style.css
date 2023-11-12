@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+}
+
 #Cabecalho{
     background-color: yellowgreen;
     color: green;
@@ -9,6 +13,13 @@
     flex-direction: row;
     column-gap: 64px;
     justify-content: center;
+    list-style: none;
+
+}
+
+#Div_Cabecalho{
+    background-color: rgb(70, 140, 0);
+    padding: 12px;
 }
 
 .Rodape{
@@ -64,21 +75,29 @@ h1{
     text-align: left;
     padding-left: 8px;
     padding-top: 8px;
+    color: green;
+    text-decoration: underline;
 }
 
 h2{
     padding-left: 24px;
     padding-bottom: 16px;
+    color: blue;
+    text-decoration: underline;
 }
 
 h3{
     padding-left: 48px;
     padding-bottom: 16px;
+    color: rgb(0, 0, 80);
+    text-decoration: underline;
 }
 
 p{
-    padding-left: 48px;
-    padding-bottom: 16px; 
+    margin-right: 48px;
+    margin-left: 48px;
+    padding: 16px;
+    background: white;
 }
  
 nav{
@@ -107,7 +126,7 @@ img{
 }
 
 main{
-    background: rgba(151, 151, 151, 0.586);
+    background-color: rgba(151, 151, 151, 0.586);
     margin: 24px;
 }
 
@@ -115,7 +134,13 @@ article iframe{
     margin-left: 300px;
 }
 
+article{
+    padding-bottom: 10px;
+}
+
 .Legenda{
-    margin-left: 255px;
+    margin-left: 300px;
+    margin-right: 65%;
     color: rgb(70, 70, 70);
+    background-color: rgba(151, 151, 151, 0.586);
 }
