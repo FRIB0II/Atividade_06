@@ -23,11 +23,19 @@ body {
     list-style: none;
 }
 
+
+article iframe {
+    margin-left: 300px;
+}
+
+article {
+    padding-bottom: 10px;
+}
+
 h1 {
     text-align: left;
     padding-left: 8px;
     padding-top: 8px;
-    color: green;
     text-decoration: underline;
 }
 
@@ -60,14 +68,6 @@ img {
 main {
     background-color: rgba(151, 151, 151, 0.586);
     margin: 24px;
-}
-
-article iframe {
-    margin-left: 300px;
-}
-
-article {
-    padding-bottom: 10px;
 }
 
 .Legenda {
