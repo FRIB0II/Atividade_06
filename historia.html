@@ -11,34 +11,25 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Jornal Guarani</title>
 </head>
 
 <body>
     <header>
-        <div class="Login">
-            <button type="button" class="btn btn-primary" style="margin-right: 2%;"><a href="cadastro.html"
-                    target="_blank">Cadastre-se</a></button>
-            <button type="button" class="btn btn-secondary"><a href="entrar.html" target="_blank">Entrar</a></button>
-        </div>
-
-        <nav class="navbar navbar-light" style="background-color: yellowgreen;">
+        <nav class="navbar navbar-light" style="background-color: yellowgreen">
             <div class="container-fluid">
                 <button class="navbar-toggler" style="background-color: blue; border: 2px solid black; margin-bottom: 10%;" type="button"
                     data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-
                 <div style="display: flex; flex-direction: column; align-items: center;">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="index.html">
                         <img src="/Imagens/colombo.webp" width="30" height="30" class="d-inline-block align-bottom"
                             alt="Brasão de colombo">
                     </a>
                     <p style="background-color: yellowgreen;">Bem vindo ao Jornal Guarani</p>
                 </div>
-
 
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel" style="background-color: rgb(80, 130, 0);">
@@ -53,10 +44,10 @@
                                 <a class="nav-link" href="index.html" style="color: yellow;">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="historia.html" style="color: yellow;">História</a>
+                                <a class="nav-link" href="#Historia" style="color: yellow;">Historia</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#Eventos_Da_Comunidade" style="color: yellow;">Eventos da
+                                <a class="nav-link" href="eventos_comunidade.html" style="color: yellow;">Eventos da
                                     comunidade</a>
                             </li>
                             <li class="nav-item">
@@ -69,41 +60,26 @@
             </div>
         </nav>
     </header>
- 
     <main>
-        <h1>Principais artigos do jornal</h1>
+        <section id="Historia">
+            <h2>História</h2>
+        </section>
+        <article>
+            <h3>Afinal de contas quando surgiu o Bairro Guarani?</h3>
 
-        <div id="Indicador" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#Indicador" data-slide-to="0" class="active"></li>
-              <li data-target="#Indicador" data-slide-to="1"></li>
-              <li data-target="#Indicador" data-slide-to="2"></li>
-            </ol>
+            <p>A história do Bairro Guarani, assim como a de Colombo, começa a se formar já na segunda metade do século
+                XX,
+                em especial a partir dos anos 70, quando a agricultura familiar começa a perder força
+                no interior do Estado do Paraná, gerando uma forte onda de desemprego e um consequente
+                êxodo rural de trabalhadores aos grandes centros urbanos.
+            </p>
 
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="./Imagens/Asfalto.jpg" alt="Primeiro Slide">
-              </div>
+            <iframe width="695" height="391" src="https://www.youtube.com/embed/BiHQIDZQ0js" title="Colombo Paraná - Historia e 
+                Curiosidades narradas e em 4K" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+                picture-in-picture; web-share" allowfullscreen></iframe>
 
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./Imagens/Festa.JPG" alt="Segundo Slide">
-              </div>
-
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./Imagens/Arvore_Colombo.JPG" alt="Terceiro Slide">
-              </div>
-            </div>
-
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Anterior</span>
-            </a>
-
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Próximo</span>
-            </a>
-          </div>
+            <p class="Legenda">História de Colombo</p>
+        </article>
 
     </main>
 
