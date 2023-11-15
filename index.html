@@ -25,7 +25,8 @@
 
         <nav class="navbar navbar-light" style="background-color: yellowgreen;">
             <div class="container-fluid">
-                <button class="navbar-toggler" style="background-color: blue; border: 2px solid black; margin-bottom: 10%;" type="button"
+                <button class="navbar-toggler"
+                    style="background-color: blue; border: 2px solid black; margin-bottom: 10%;" type="button"
                     data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -36,7 +37,7 @@
                         <img src="/Imagens/colombo.webp" width="30" height="30" class="d-inline-block align-bottom"
                             alt="Brasão de colombo">
                     </a>
-                    <p style="background-color: yellowgreen;"  class="text-primary">Bem vindo ao Jornal Guarani</p>
+                    <p style="background-color: yellowgreen;" class="text-primary">Bem vindo ao Jornal Guarani</p>
                 </div>
 
 
@@ -69,51 +70,84 @@
             </div>
         </nav>
     </header>
- 
+
     <main>
         <h1 class="text-success">Principais artigos do jornal</h1>
 
         <div id="Indicador" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-              <li data-target="#Indicador" data-slide-to="0" class="active"></li>
-              <li data-target="#Indicador" data-slide-to="1"></li>
-              <li data-target="#Indicador" data-slide-to="2"></li>
+                <li data-target="#Indicador" data-slide-to="0" class="active"></li>
+                <li data-target="#Indicador" data-slide-to="1"></li>
+                <li data-target="#Indicador" data-slide-to="2"></li>
             </ol>
 
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="./Imagens/Asfalto.jpg" alt="Primeiro Slide">
-              </div>
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./Imagens/Asfalto.jpg" alt="Primeiro Slide">
+                </div>
 
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./Imagens/Festa.JPG" alt="Segundo Slide">
-              </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./Imagens/Festa.JPG" alt="Segundo Slide">
+                </div>
 
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./Imagens/Arvore_Colombo.JPG" alt="Terceiro Slide">
-              </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./Imagens/Arvore_Colombo.JPG" alt="Terceiro Slide">
+                </div>
             </div>
 
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Anterior</span>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
             </a>
 
             <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Próximo</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
             </a>
-          </div>
+        </div>
 
-          <div class="container-fluid ">
+        <div class="container-fluid ">
 
             <div class="row">
-                <div class="col border">Coluna 1</div>
-                <div class="col border">Coluna 2</div>
-                <div class="col border">Coluna 3</div>
+                <div class="col border col-8" style="margin-top: 24px;">
+                    <h3 class="text-danger">Notícias de última hora</h3>
+                    <p>Nosso Querido Amigo José Procura por Bolota
+                        Aqui no nosso amado bairro Guarani, todos nós conhecemos o senhor José e seu fiel companheiro,
+                        Bolota. Infelizmente, Bolota desapareceu na manhã de ontem e José está desesperadamente à
+                        procura de seu amigo de quatro patas.
+                        Como todos nós sabemos, Bolota, um vira-lata de porte médio, é mais do que um simples animal de
+                        estimação para José. Ele é um amigo leal e um membro querido de nossa comunidade.
+                        Quando Bolota não apareceu para o café da manhã de ontem, algo muito incomum para o sempre
+                        pontual Bolota, José percebeu que algo estava errado. Após uma busca minuciosa, ficou claro que
+                        Bolota havia desaparecido.
+                        Nós, como uma comunidade unida, já começamos a ajudar na busca. Panfletos com a foto de Bolota
+                        estão sendo distribuídos e a história está sendo compartilhada em nossas redes sociais.
+                        José está oferecendo uma recompensa para quem encontrar Bolota e trazê-lo de volta para casa.
+                        Ele diz: “Bolota é mais do que apenas um cachorro para mim. Ele é meu amigo, meu companheiro. Eu
+                        só quero que ele volte para casa”.
+                        Se você tiver alguma informação sobre o paradeiro de Bolota, por favor, entre em contato com
+                        José ou com a delegacia local. Vamos ajudar a reunir Bolota com seu dono preocupado.
+                    </p>
+                    <img src="Imagens/Bolota.jfif" alt="Bolota"
+                        style="margin-left: 48px; margin-bottom: 16px; width: 350px; height: 250px;">
+                    <p style="background-color: gray; margin-right: 2%;">Bolota</p>
+                </div>
+                <div class="col border col-4" style="margin-top: 24px;">
+                    <h4 class="text-primary" style="text-decoration: underline; padding-left: 48px;">Poemas do pequeno
+                        Guarani</h4>
+                    <p style="margin-top: 26px;">A primavera chegou, trazendo cores e aromas As flores se abrem, os
+                        pássaros cantam, as abelhas zumbem A natureza se renova, com beleza e harmonia E o sol brilha,
+                        aquecendo os corações.
+                        A primavera é tempo de amor, de esperança e de alegria De celebrar a vida, de agradecer e de
+                        sorrir De plantar novos sonhos, de colher novos frutos E de compartilhar a felicidade com quem
+                        se quer bem.
+                        A primavera é uma dádiva, um presente dos céus Que nos convida a admirar, a contemplar e a
+                        cuidar Do nosso planeta, da nossa casa, do nosso lar E de tudo o que nele há de bom e de belo.
+                    </p>
+                </div>
             </div>
 
-          </div>
+        </div>
 
     </main>
 
